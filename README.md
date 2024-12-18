@@ -1,4 +1,4 @@
-# Stock Option Pricing in Financial Markets Using Machine Learning
+# Stock Options Pricing in Financial Markets with Machine Learning
 
 
 ## Table of Contents
@@ -16,7 +16,7 @@
 <br>
 
 ## Abstract
-This financial engineering project applies machine learning to price stock option using a large dataset (74,492 rows and 21 columns) from Yahoo Finance, covering 50 companies across various sectors. Among five regression models, Random Forest demonstrated the best predictive performance with low error rates and was selected for the final prediction. The model effectively identified key factors influencing option pricing, such as implied volatility, strike price, and time to maturity. It achieved strong evaluation metrics on the test set, with predictions closely aligning to actual pricing values.
+This financial engineering project applies machine learning to price stock options using a large dataset (74,492 rows and 21 columns) from Yahoo Finance, covering 50 companies across various sectors. Among five regression models, Random Forest demonstrated the best predictive performance with low error rates and was selected for the final prediction. The model effectively identified key parameters influencing option pricing, such as bid price, stock price, and moneyness. It achieved strong evaluation metrics on the test set, with predictions closely aligning to actual pricing values.
 
 <br>
 
@@ -150,5 +150,5 @@ The bid price reflects market demand and significantly influences the option's v
 <br>
 
 ## Future Improvements
-Future work could focus on integrating real-time data for live pricing and using more advanced models to enhance accuracy and scalability. Leveraging GPUs would speed up training and enable the switch from randomized search to grid search for better optimization. Migrating the Jupyter notebook to a more scalable environment would improve efficiency and simplify deployment.
+Future work could focus on integrating real-time data for live pricing and using more advanced models to enhance accuracy and scalability. Leveraging GPUs would speed up training and enable the switch from randomised search to grid search for better optimisation. Migrating the Jupyter notebook to a more scalable environment would improve efficiency and simplify deployment.
 
