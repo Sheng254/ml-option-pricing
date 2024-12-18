@@ -1,4 +1,4 @@
-# Option Pricing in Financial Markets Using Machine Learning
+# Stock Option Pricing in Financial Markets Using Machine Learning
 
 
 ## Table of Contents
@@ -47,7 +47,7 @@ The analysis was performed using Python in Google Colab. The methodology involve
 <br>
 
 ## Dataset Description
-This project utilizes up-to-date stock options datasets from 50 companies across various sectors sourced from Yahoo Finance, with datasets that refresh upon each fetch. The companies include major names such as Apple, Microsoft, Tesla, NVIDIA, and more. The raw dataset comprises 79,853 rows and 18 columns, where each row represents an options contract and columns detail parameters like strike price, bid-ask spread, implied volatility, and expiration date. After cleaning, 74,492 rows remain, with missing values removed. Additionally, three derived parameters—time to maturity, moneyness, and bid-ask spread—were added to enhance the dataset’s analytical depth.
+This project utilises the latest stock options datasets from 50 companies across various sectors sourced from Yahoo Finance, with datasets that refresh upon each fetch. The companies include major names such as Apple, Microsoft, Tesla, NVIDIA, and more. The raw dataset comprises 79,853 rows and 18 columns, where each row represents an options contract and columns detail parameters like strike price, bid-ask spread, implied volatility, and expiration date. After cleaning, 74,492 rows remain, with missing values removed. Additionally, three derived parameters: time to maturity, moneyness, and bid-ask spread were added to enhance the dataset’s analytical depth.
 
 
 | Column Name         | Data Type                | Description                         | Count   | Mean         | Min           | Max           | Std Dev       |
